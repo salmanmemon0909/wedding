@@ -19,7 +19,8 @@
 <script src="https://kit.fontawesome.com/407bd6b71f.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style.css">
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDl62PD82w6Jddq7H6IPS0x3HyKuyCr3t0"></script>
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </head>
 
@@ -96,7 +97,7 @@
 
             <div class="col-lg-5 col-md-12 col-sm-12 mt-4 contact-exm-div">
                 
-              <div class="contact">
+              <div class="contact" data-aos="fade-up">
                 <h4 class="text-center font-weight-bold">Get In Touch With Us!</h4>
                 <form class="mt-4" onsubmit="return formsub();">
                   <div class="form-row">
@@ -724,6 +725,14 @@ return returnval;
 }
 
 
+
+
+
+AOS.init({
+    	offset: 450,
+    	duration: 1000,
+    	once: true,
+    	});
 
 
 </script>

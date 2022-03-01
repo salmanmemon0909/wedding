@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nikah.com</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="country-select-js-master/build/css/countrySelect.css">
+<script src="scss/build/js/countrySelect.min.js"></script>
+<link rel="stylesheet" href="scss/build/css/countrySelect.css">
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/407bd6b71f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
+
+
+<script type="text/javascript">
+	function onlyOne(checkbox) {
+    var checkboxes = document.getElementsByName('check')
+    checkboxes.forEach((item) => {
+        if (item !== checkbox) item.checked = false
+    })
+}
+</script>
+
+</head>
+<body style="background-color: #f3f3f3;">
+
+
+
+<div class="container-fluid img-fluid bg-div">
+	
+
+<div class="row float-right mr-5 mt-4">
+
+	<div class=" col-6">
+		<button class="btn btn-secondary text-uppercase pr-4 pl-4 pt-2 pb-2 rounded" id="login" data-toggle="modal" data-target="#myModal1" >Login</button>
+
+</div>
+
+
+	<div class=" col-6">
+		<button class="btn btn-info text-uppercase pr-4 pl-4 pt-2 pb-2 rounded" data-toggle="modal" data-target="#myModal" type="button">signup</button>
+
+
+</div>
+</div>
+
+
+<div class="container-fluid home-second-work">
+
+<div class="container-fluid"> 
+  <h3 style="text-align: center; color:rgb(23,162,184);">Trusted Matrimony & Matchmaking Service</h3>
+  </div>
+
+
+  <div class="container-fluid mt-5 resdiv">
+
+    <form class="row form-group text-white">
+
+      <div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+      <label>I'm Looking For A</label>
+      <select class="form-control">
+        <option>Man</option>
+        <option>Women</option>
+      </select>
+    </div>
+
+    <div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+      <label>Aged</label>
+      <select class="form-control">
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+        <option>32</option>
+        <option>33</option>
+        <option>34</option>
+        <option>35</option>
+        <option>36</option>
+        <option>37</option>
+        <option>38</option>
+        <option>39</option>
+        <option>40</option>
+        <option>41</option>
+        <option>42</option>
+        <option>43</option>
+        <option>45</option>
+        <option>46</option>
+        <option>47</option>
+        <option>48</option>
+        <option>49</option>
+        <option>50</option>        
+      </select>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+      <label class="position-absolute" style="margin-left: -1rem; margin-top: 2.5rem;">to</label>
+      <select class="form-control" style="margin-top: 2rem; margin-left: 0.5rem;">
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+        <option>32</option>
+        <option>33</option>
+        <option>34</option>
+        <option>35</option>
+        <option>36</option>
+        <option>37</option>
+        <option>38</option>
+        <option>39</option>
+        <option>40</option>
+        <option>41</option>
+        <option>42</option>
+        <option>43</option>
+        <option>45</option>
+        <option>46</option>
+        <option>47</option>
+        <option>48</option>
+        <option>49</option>
+        <option>50</option>        
+      </select>
+    </div>
+
+
+    <div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+      <label>Of Religion</label>
+      <select class="form-control">
+        <option>Muslim</option>
+        <option>Hindu</option>
+        <option>Christian</option>
+        <option>Sikh</option>
+        <option>parsi</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+      <label>Mother Tongue</label>
+      <select class="form-control">
+        <option>Urdu</option>
+        <option>Balochi</option>
+        <option>Pashto</option>
+        <option>Saraiki</option>
+        <option>Memoni</option>
+        <option>Cutchi</option>
+        <option>punjabi</option>
+        <option>English</option>
+        <option>Other</option>
+      </select>
+    </div>
+<div class="col-md-3 col-lg-2 col-sm-6 col-5 mt-4">
+<input type="submit" value="Let's Begin" class="btn" style="margin-top: 2rem; background-color: #53b9d2; color: white;">
+</div>
+
+    </form>
+</div>
+  </div>
+
+
+</div>
+
+
+
+
+
+<!-- first modal -->
+<div class="modal fade mt-5 modal-dialog-scrollable modal-hide" id="myModal1">
+<div class="modal-dialog">
+    <div class="modal-content">
+
+    
+<form class="container bg-secondary">
+			<i class="bi bi-x text-white font-weight-bold cross-sign float-right" id="hide" data-dismiss="modal"style="cursor: pointer;"></i>
+			<br>
+			<div class="input-group mb-4">
+ 
+  <input type="email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Email Address" id="email">
+  <span id="error"></span>
+</div>
+
+<div class="input-group">
+   <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password" id="password">
+   <span id="perror"></span>
+</div>
+			
+		<div class="container">
+			<button class="btn btn-info pr-4 pl-4 pt-2 pb-2 rounded mt-5 mb-5 sign-in-div" type="submit">Sign In</button>
+			<p class="text-white font-weight-bold text-capitalize sign-in-div d-inline">forgot your password?</p>
+
+		</div>
+
+
+		<div class="row sign-in-btn-div">
+<div class="col-6 d-inline">
+			<button class="btn btn-light pr-4 pl-4 pt-2 pb-2 mt-4 rounded bi bi-google"> Sign In</button>
+			</div>
+			<div class="col-6 d-inline">
+			<button class="btn btn-primary pr-4 pl-4 pt-2 pb-2 mt-4 rounded bi bi-facebook"> Sign In</button>
+			</div>
+		</div>
+
+</form>
+</div>
+</div>
+</div>
+
+<!-- first modal ended -->
+
+
+
+
+
+
+
+<!-- second modal -->
+
+<!-- The Modal -->
+<div class="modal fade mt-5 modal-dialog-scrollable modal-hide" id="myModal">
+  <div class="modal-dialog bg-secondary">
+    <div class="modal-content bg-secondary">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h5 class="modal-title text-white">Register New Member</h5>
+        <i class="bi bi-x text-white font-weight-bold cross-sign2 float-right" id="hide" data-dismiss="modal"style="cursor: pointer;"></i> 
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body text-white">
+        <form>
+        	<div class="form-group">
+        	<input type="text" placeholder="First Name" class="form-control mb-4">
+        	<input type="text" placeholder="Last Name" class="form-control mb-4">
+        	<input type="email" placeholder="Email" class="form-control" required>
+        	<div>
+        		<h5 class="mt-4 mb-2 text-white">Gender</h5>
+        		<svg class="checkbox-symbol">
+  <symbol id="check" viewbox="0 0 12 10">
+    <polyline
+      points="1.5 6 4.5 9 10.5 1"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+    ></polyline>
+  </symbol>
+</svg>
+<div class="checkbox-container bg-secondary">
+  <input class="checkbox-input" id="apples" type="checkbox"  name="check" onclick="onlyOne(this)">
+  <label class="checkbox" for="apples">
+    <span>
+      <svg width="12px" height="10px">
+        <use xlink:href="#check"></use>
+      </svg>
+    </span>
+    <span class="text-white">Male</span>
+  </label>
+  <input class="checkbox-input" id="oranges" type="checkbox" name="check"  onclick="onlyOne(this)">
+  <label class="checkbox" for="oranges">
+    <span>
+      <svg width="12px" height="10px">
+        <use xlink:href="#check"></use>
+      </svg>
+    </span>
+    <span class="text-white">Female</span>
+  </label>
+</div>
+
+
+        	</div>
+
+
+<div>
+
+	  <h5 for="example">Date Of Birth</h5>
+	<input type="date" class="form-control">
+
+
+</div>
+
+
+<div class="mt-4">
+	<fieldset>
+  <h5>Religion</h5>
+  <select class="form-control dropdown" id="religion" name="religion">
+    <option value="" selected="selected" disabled="disabled">-- select one --</option>
+    <option value="African Traditional &amp; Diasporic">African Traditional &amp; Diasporic</option>
+    <option value="Agnostic">Agnostic</option>
+    <option value="Atheist">Atheist</option>
+    <option value="Baha'i">Baha'i</option>
+    <option value="Buddhism">Buddhism</option>
+    <option value="Cao Dai">Cao Dai</option>
+    <option value="Chinese traditional religion">Chinese traditional religion</option>
+    <option value="Christianity">Christianity</option>
+    <option value="Hinduism">Hinduism</option>
+    <option value="Islam">Islam</option>
+    <option value="Jainism">Jainism</option>
+    <option value="Juche">Juche</option>
+    <option value="Judaism">Judaism</option>
+    <option value="Neo-Paganism">Neo-Paganism</option>
+    <option value="Nonreligious">Nonreligious</option>
+    <option value="Rastafarianism">Rastafarianism</option>
+    <option value="Secular">Secular</option>
+    <option value="Shinto">Shinto</option>
+    <option value="Sikhism">Sikhism</option>
+    <option value="Spiritism">Spiritism</option>
+    <option value="Tenrikyo">Tenrikyo</option>
+    <option value="Unitarian-Universalism">Unitarian-Universalism</option>
+    <option value="Zoroastrianism">Zoroastrianism</option>
+    <option value="primal-indigenous">primal-indigenous</option>
+    <option value="Other">Other</option>
+  </select>
+</fieldset>
+</div>
+
+
+<div class="mt-4">
+
+	<h5>Country</h5>
+<input type="text" id="country" class="form-control">
+
+
+<script>
+
+  $("#country").countrySelect();
+</script>
+
+</div>
+
+
+<div>
+	<input type="submit" value="Sign Up" class="btn btn-info d-block input-btn">
+</div>
+
+        	</div>
+        </form>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- second modal ended -->
+
+
+
+
+
+<div class="container-fluid mt-5 first-div">
+
+<h2 class="text-danger text-center" style="margin-top: 7rem; margin-bottom: 5.5rem;">Find your Special Someone</h2>
+
+
+<div class="container m-auto row">
+
+<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+<a title="Create your Matrimony Profile" class="icon"></a>
+<div class="container-fluid mt-3">
+<h3 style="color: #00bcd5;">Sign Up</h3>
+<p>Register for free & put up your Matrimony Profile</p>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+  <a title="Connect With Matrimony Profiles" class="icon2"></a>
+  <div class="container-fluid mt-3">
+    <h3 style="color: #00bcd5;">Connect</h3>
+    <p>Select & Connect with Matches you like</p>
+    </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+  <a title="Become a Premium Member & Find Matrimony Profiles" class="icon3"></a>
+  <div class="container-fluid mt-3">
+    <h3 style="color: #00bcd5;">Interact</h3>
+    <p>Become a Premium Member & Start a Conversation</p>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<!-- second div -->
+
+<div class="container-fluid second-div">
+
+  <h2 class="text-danger text-center" style="margin-top: 7rem; margin-bottom: 5.5rem;">Best Matrimony Site. Used By Millions Of Member Worldwide</h2>
+  
+  
+  <div class="container m-auto row">
+  
+  <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+  <img src="images/icon-d-1.png" class="img-fluid">
+  <div class="container-fluid mt-1">
+  <p>Millions of people register on Shadi.com looking for someone special. This site is for serious singles looking for a long lasting relationship.</p>
+  </div>
+  </div>
+  
+  
+  <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+    <img src="images/icon-d-2.png" class="img-fluid">
+    <div class="container-fluid mt-1">
+    <p>80% of our members are highly educated. Most of them are successful professionals in their selected fields.</p>
+    </div>
+    </div>
+  
+
+    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+      <img src="images/icon-d-3.png" class="img-fluid">
+      <div class="container-fluid mt-1">
+      <p>Nikah.com uses a smart matchmaking system. We present you matches based on current location, education level & lifestyle choices.</p>
+      </div>
+      </div>
+  
+  </div>
+  
+  </div>
+<!-- second end -->
+
+
+
+
+
+  <!-- third div -->
+
+  <div class="container post-slider">
+    <h4 class="slider-title text-center browsetxt">BROWSE MATRIMONIAL
+      PROFILES</h4>
+      <i class="fa fa-chevron-left prev"></i>
+      <i class="fa fa-chevron-right next"></i>
+  <div class="post-wrapper">
+
+    <div class="post">
+      <div class=" text-center">
+        <h2 class="text-dark">STATES</h2>
+<p>Sindh | Punjab | Khyber Pakhtunkhwa | Balochistan | Islamabad</p>
+<button class="btn btn-outline-info mt-3 mb-3">Read More</button>
+      </div>
+     
+      </div>
+
+
+
+      <div class="post">
+        <div class="text-center">
+          <h2 class="text-dark"> INTERNATIONAL </h2>
+  <p>United Kingdom | Australia | Pakistan | UAE | Switzerland | India </p>
+  <button class="btn btn-outline-info mt-3 mb-3">Read More</button>
+        </div>
+       
+        </div>
+
+
+
+        <div class="post">
+          <div class="text-center">
+            <h2 class="text-dark"> RELIGION </h2>
+    <p>Muslim | Hindu | Christian | Sikh</p>
+    <button class="btn btn-outline-info mt-3 mb-3">Read More</button>
+          </div>
+         
+          </div>
+
+
+
+          <div class="post">
+            <div class="text-center">
+              <h2 class="text-dark"> CASTE </h2>
+      <p>Memon | Khan | Baloch | Khatri | Shaikh | </p>
+      <button class="btn btn-outline-info mt-3 mb-3">Read More</button>
+            </div>
+           
+            </div>
+
+    </div>
+    </div>
+      
+      
+
+
+
+
+
+<!-- fourth div work -->
+
+<div class="container row" style="margin: auto; margin-top: 14rem;">
+
+<div class="col-lg-4 col-md-12 col-sm-12 fourth-div">
+<p class="txt1">Relationship Advice</p>
+<img src="images/fourth-div-pic-1.jpg" class="img-fluid mt-3 fourth-div-img-resize">
+<p class="mt-3" style="text-align: justify; font-size: 0.8rem; color: gray;">A collection of blogs on relationships, marriage, meetups and love. Following these tips and advise can help you in your relationship journey. Makes you better prepared to have great relationships.</p>
+</div>
+
+
+
+<div class=" col-lg-4 col-md-12 col-sm-12 fourth-div">
+  <p class="txt2">Find Someone Special In Your City</p>
+  <img src="images/fourth-div-pic-2.jpg" class="img-fluid mt-3 fourth-div-img-resize" >
+  <p class="mt-3" style="text-align: justify; font-size: 0.8rem; color: gray;">Connect with someone special in your city and nearby. Our members are educated and looking for long term relationships. If you are looking for meaningful connections we can help in life partner search.</p>
+  </div>
+
+
+  <div class="col-lg-4 col-md-12 col-sm-12 fourth-div">
+    <p class="txt3">Marriage ties two families in a bond of lifetime relationship!</p>
+    <img src="images/fourth-div-pic-3.jpg" class="img-fluid mt-3 fourth-div-img-resize">
+    <p class="mt-3" style="text-align: justify; font-size: 0.8rem; color: gray;">Marriage is the most important decision in your life time. Parents and close family members can play a meaningful role in search for a lifelong companion.</p>
+    </div>
+</div>
+
+
+
+<!-- fifth div work -->
+
+<div class="container row" style="margin: auto; margin-top: 14rem;">
+<h2 class="fifth-div-heading">MEET OUR MEMBERS - SUCCESSFUL
+  PROFESSIONAL SINGLES</h2>
+
+<div class="col-lg-6 col-md-12 col-sm-12 text-center">
+
+  <img src="images/icon-d-1.png" class="img-fluid">
+  <p class="">We have members from all religions and ages. Our most popular age group is from 27 - 60. Almost all our singles are successful professionals and businessmen. Creating a great profile is essential in online matchmaking and adding your best photo to your profile. We offer abundant tips and relationship advice through our blogs. It is our passion to help you in the best possible way.</p>
+
+</div>
+
+
+
+<div class="col-lg-6 col-md-12 col-sm-12 text-center">
+
+  <img src="images/fifth-pic-1.png" class="img-fluid">
+  <p class="">Nikah.com is an international matchmaking platform. Through which people can find love and long lasting relationships. Our profiles are verified with cell phone and email verification. We make use of the latest technology for fraud detention and SSL encryption. Non-active users are removed from our network. We are committed to providing a safe web service for like-minded singles in your region.</p>
+
+</div>
+</div>
+
+
+
+
+<!-- sixth div work -->
+
+<div class="container post-slider2" style="margin-top: 14rem;">
+  <h4 class="slider-title text-center sixth-slider-titile">SUCCESS STORIES</h4>
+    <i class="fa fa-chevron-left prev2"></i>
+    <i class="fa fa-chevron-right next2"></i>
+<div class="post-wrapper2">
+
+  <div class="post2 col-12">
+    <div class="ml-4">
+   
+   After joining Nikah.com for almost a year, I found a nice girl in karachi who seemed to have the qualities that I wanted in a partner.
+    <br>
+    <br>
+    She was everything that I could ask for in a match.
+    <br>
+    <br>
+    We first met outside Costa, because of Covid. Conversations continued for almost 6 months, now we are engaged! Thinking of getting married in 2021. 
+    <br>
+    Thank you Nikah.com for your help.
+    <br>
+    <br>
+
+    <strong>Salman Memon</strong>
+    </div>
+  </div>
+   
+
+
+
+    <div class="post2 col-12">
+      <div class="ml-4">
+      
+       I met my fiancé on Nikah.com. I came across her profile, and messaged her instantly.
+       <br>
+       <br>
+       We soon began chatting every day. We are both locals to the kharadar area, so we met up after chatting online for a month.
+       <br>
+       <br>
+       Soon, we met each others families and decided to get engaged. Our wedding will take place next year. 
+       <br>
+       Thank You Nikah.com
+       <br>
+       <br>
+   
+       <strong>Salman</strong>
+      </div>
+       </div>
+
+
+
+
+
+       <div class="post2 col-12">
+        <div class="ml-4">
+        
+        Last year after signing up for a 6 months term with Shadi.com. Had no luck initially for some weeks. Few months later I got matched with a wonderful and caring man. 
+         <br>
+         <br>
+        
+At first I could not imagine or think it was possible to meet my partner on a site.
+         <br>
+         <br>
+         
+I am in the San Francisco Bay area with my fiance, soon to be married in the near future. Never give up hope on good things in life! 
+         <br>
+         Thank You
+         <br>
+         <br>
+     
+         <strong>Salman</strong>
+        </div>
+         </div>
+
+
+
+    </div>
+
+
+
+
+
+  
+
+  </div>
+  
+
+
+<!-- footer work  -->
+
+
+<footer>
+  <div class="container-fluid" style="margin-top: 20rem;background-color: rgba(23,162,184, 0.8); color: black;">
+
+    
+<div class="container row m-auto p-4">
+  
+
+  <div class="col-lg-3 col-md-5 col-6 mt-3">
+
+    <h6 style="cursor: default ;">Company</h6>
+    <hr style=" margin-top:-.1rem; width: 2rem; border-bottom: 2px solid maroon; float: left;">
+
+    <br>
+
+    <div style="list-style-type:none; line-height: 1.9rem;">
+      <li onclick="window.open('About.html' , '_self')" style="cursor: pointer; display: inline;">About Us</li> <br>
+      <li onclick="window.open('Help.html' , '_self')" style="cursor: pointer; display: inline; ">Helpful Tips</li> <br>
+      <li onclick="window.open('story.html' , '_self')" style="cursor: pointer; display: inline;">Submit Story</li> <br>
+      <li onclick="window.open('customer.html' , '_self')" style="cursor: pointer;  display: inline;">Customer Support</li>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <div class="col-lg-2 col-md-5 col-6 mt-3">
+
+    <h6 style="cursor: default;">Need Help?</h6>
+    <hr style=" margin-top:-.1rem; width: 2rem; border-bottom: 2px solid maroon; float: left;">
+
+    <br>
+
+    <div style="list-style-type:none; line-height: 1.9rem;">
+      <li onclick="window.open('contact.html' , '_self')" style="cursor: pointer; display: inline;">Contact Us</li> <br>
+      <li data-toggle="modal" data-target="#myModal1" style="cursor: pointer; display: inline; ">Sign In</li> <br>
+      <li data-toggle="modal" data-target="#myModal" style="cursor: pointer; display: inline;">Sign Up</li> <br>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="col-lg-2 col-md-5 col-6 mt-3">
+
+    <h6 style="cursor: default;">Privacy & You</h6>
+    <hr style=" margin-top:-.1rem; width: 2rem; border-bottom: 2px solid maroon; float: left;">
+
+    <br>
+
+    <div style="list-style-type:none; line-height: 1.9rem;">
+      <li onclick="window.open('Terms&Condition.html' , '_self')" style="cursor: pointer; display: inline;">Terms & Condition</li> <br>
+      <li onclick="window.open('PrivacyPolicy.html' , '_self')" style="cursor: pointer; display: inline; ">Privacy Policy</li> <br>
+      <li onclick="window.open('parent.html' , '_self')" style="cursor: pointer; display: inline;">Parents Involved</li> <br>
+      <li onclick="window.open('RefundPolicy.html' , '_self')" style="cursor: pointer;  display: inline;">Refund Policy</li>
+    </div>
+
+  </div>
+
+
+
+
+  <div class="col-lg-5 col-md-5 col-6 mt-3">
+    <div class="container footer-icons-div">
+
+      <h6 style="cursor: default;">Follow Us</h6>
+    <hr style=" margin-top:-.1rem; width: 2rem; border-bottom: 2px solid maroon; float: left;">
+
+    <br>
+      <i onclick="window.open('https://www.facebook.com/profile.php?id=100020770088658' , '_blank')" class="fa-brands fa-facebook footer-icon"></i>
+      <i onclick="window.open('https://www.instagram.com/salman_memon_0909/' , '_blank')" class="fa-brands fa-instagram footer-icon"></i>
+      <i onclick="window.open('https://twitter.com/salmanmemon0909' , '_blank')" class="fa fa-twitter footer-icon"></i>
+        
+    </div>
+  </div>
+
+
+</div>
+
+   
+
+  </div>
+</footer>
+
+
+<footer class="pt-3 pb-3 text-center copy-text" style="color: black;">
+  © Copyrights Nikah.com 2003 - 2022. All rights reserved.
+</footer>
+
+
+
+
+<script>$('.post-wrapper').slick({
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  nextArrow: $('.next'),
+  prevArrow: $('.prev'),
+  responsive: [
+  {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 1299,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+      {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+   
+  ]
+});
+
+
+
+
+$('.post-wrapper2').slick({
+  infinite: true,
+  speed: 800,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  nextArrow: $('.next2'),
+  prevArrow: $('.prev2'),
+  responsive: [
+  {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 1299,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+      {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+   
+  ]
+});
+
+
+</script>
+
+</body>
+</html>

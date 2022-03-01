@@ -1,0 +1,774 @@
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.bg-div
+{
+	background: url(images/bg-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+
+.cross-sign
+{
+	font-size: 2.5rem;
+}
+
+.cross-sign2
+{
+	font-size: 2rem;
+	margin-top: -1rem;
+}
+
+
+.sign-in-div
+{
+	margin: auto;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sign-in-btn-div
+{
+	display: inline-block;
+	margin: auto;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+
+
+.checkbox-symbol {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.checkbox-container {
+  box-sizing: border-box;
+  background: #ffffff;
+  color: #222;
+  margin-bottom: 0.9rem;
+  display: flex;
+}
+
+.checkbox-container * {
+  box-sizing: border-box;
+}
+
+.checkbox-input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.checkbox {
+  user-select: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+}
+
+.checkbox:not(:last-child) {
+  margin-right: 6px;
+}
+
+.checkbox:hover {
+  background: rgba(0, 119, 255, 0.06);
+}
+
+.checkbox span {
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+
+.checkbox span:first-child {
+  position: relative;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  transform: scale(1);
+  border: 1px solid #cccfdb;
+  transition: all 0.3s ease;
+}
+
+.checkbox span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transform: translate3d(0, 0, 0);
+}
+
+.checkbox span:last-child {
+  padding-left: 8px;
+  line-height: 18px;
+}
+
+.checkbox:hover span:first-child {
+  border-color: #0077ff;
+}
+
+.checkbox-input:checked + .checkbox span:first-child {
+  background: #0077ff;
+  border-color: #0077ff;
+  animation: zoom-in-out 0.3s ease;
+}
+
+.checkbox-input:checked + .checkbox span:first-child svg {
+  stroke-dashoffset: 0;
+}
+
+@keyframes zoom-in-out {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+
+.input-btn
+{	
+	margin: auto;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+  padding: 0.5rem 1.3rem;
+  font-size: 1.2rem;
+}
+
+
+.modal-hide
+{
+  display: none;
+}
+
+.home-second-work
+{
+   margin-top: 25.2%;
+  position: absolute;
+  width: 97%;
+}
+
+.resdiv
+{
+  width: 90%;
+   background-color: rgba(0, 0, 0, 0.6); 
+   height: 22.5vh;
+}
+
+.first-div,.second-div
+{
+  height: 70vh;
+  margin-bottom: 12rem;
+}
+
+
+
+.icon
+{
+  
+    background: url(images/icon1.png);
+    height: 148px;
+    width: 133px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-size: 100%;
+}
+
+.icon2
+{
+  background: url(images/icon2.png);
+  height: 148px;
+    width: 133px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-size: 100%;
+    
+}
+
+
+.icon3
+{
+  background: url(images/icon3.png);
+  height: 148px;
+    width: 133px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-size: 100%;
+  
+}
+
+.post-slider,.post-slider2
+{
+  margin-bottom: 10rem;
+}
+
+.post-wrapper,.post-wrapper2
+{
+
+overflow: hidden;
+margin: auto;
+}
+
+
+.post
+{
+
+   /* display: inline-block;*/
+   
+   float: left;
+    margin:0 0.3%;
+    word-wrap: break-word;
+    background-clip: border-box;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+    border: 1px solid #ecebf1;
+    border-radius: 0.5rem;
+    transition: 0.4s ease;
+    height: 30vh;
+    padding: 5px;
+}
+
+.post2
+{
+  float: left;
+    margin:0 0.3%;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #ecebf1;
+    border-radius: 0.5rem;
+    transition: 0.4s ease;
+    height: 44vh;
+    padding-top: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+   
+}
+
+.next,.next2
+{
+    position: relative;
+       margin-left: 4%;
+    margin-top: 10%;
+    float: right;
+    font-size: 2em;
+    color: maroon;
+    cursor: pointer;
+}
+
+
+.prev,.prev2
+{
+    position: relative;
+    float: left;
+    margin-right: 4%;
+    margin-top: 10%;
+    font-size: 2em;
+    color: maroon;
+    cursor: pointer;
+}
+.next:hover
+{
+    color: red;
+    transition: 0.3s linear;
+}
+
+
+.prev:hover
+{
+    color: red;
+    transition: 0.3s linear;
+}
+.post:hover {
+    transition: 0.4s ease;
+ box-shadow: 0 1rem 2rem rgb(3 0 71 / 9%);
+}
+
+.txt1
+{
+  
+  width: 50%;
+  margin: auto;
+  /* margin-top: 10rem; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.txt2
+{
+  
+  width: 90%;
+  margin: auto;
+  /* margin-top: 10rem; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.txt3
+{
+  
+  width: 90%;
+  margin: auto;
+  /* margin-top: 10rem; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.browsetxt
+{
+   width: 30%; 
+   margin: auto; 
+   margin-bottom: 6rem; 
+   font-size: 1.5rem;
+}
+
+
+
+
+
+.collapsible {
+  background-color: #ebeaea;
+  color: black;
+  cursor: pointer;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  outline: none;
+  font-size: 15px;
+  border: none;
+  font-size: 1rem;
+  width: 80%;
+  text-align: left;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+
+
+
+
+
+.content {
+  padding: 0 18px;
+  background-color: #ebeaea;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 77.5%;
+  margin: auto;
+  float: left;
+  /* margin-top: 20px; */
+  margin-bottom: 40px;
+  font-size: 18px;
+  border-radius: 0.3rem;
+ }
+
+
+
+ .collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #5680e9;
+  float: right;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.help-img-div
+{
+
+    background: url(images/help-img-1.jpg);
+     width: 100%;
+     height: 50vh;
+     background-position: center;
+     background-size: cover;
+}
+
+
+
+.refund-form-width
+{
+    width: 30%;
+}
+
+
+.refund-p
+{
+    font-size: 1.4rem;
+    margin-top: 5rem; 
+    color: #666666; 
+    font-weight: 700;
+}
+
+
+.locationDiv
+{
+
+	/* width: 42%;  */
+		height: 80vh; 
+		 margin-right: 2.5%;
+				 margin-top: 5%;
+         
+}
+
+
+
+
+  #map
+  { 
+
+	height: 40vh; 
+	width: 100%; 
+	border-radius: 10px;
+				 			 
+}
+    
+
+.contact
+{
+  
+  width: 440px;
+  margin: auto;
+  padding: 0.9375rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%);
+  position: relative;
+    overflow: hidden;
+}
+
+
+.contact-exm-div
+{
+  margin-left: 7rem;
+} 
+
+
+
+
+.fourth-div-img-resize
+{
+  border-radius: 0.6rem;
+}
+
+
+.fifth-div-heading
+{
+  
+  text-align: center; 
+  width: 55%;
+   margin: auto;
+  margin-bottom: 5rem; 
+}
+
+
+
+.sixth-slider-titile
+{
+  width: 33%; 
+  margin: auto;
+   margin-top: 10rem;
+    margin-bottom: 6rem;
+     font-size: 1.7rem;
+}
+
+.footer-icons-div
+{
+  padding-left: 5rem;
+ 
+}
+
+.footer-icon
+{
+  margin-right: 1.5rem; 
+  font-size: 2rem;
+}
+
+
+
+footer li:hover
+{
+  color: white;
+  transition: 0.4s ease;
+}
+
+
+footer i:hover 
+{
+  color: white;
+  transform: scale(1.2);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.navbarr
+{
+  margin-left: 10rem;
+}
+
+
+.navbara
+{
+  margin-right: 1.8rem;
+}
+
+
+
+
+
+
+@media(max-width:1270px)
+{
+  .navbarr
+  {
+    margin-left: 7rem;
+  }
+  .navbara 
+  {
+    margin-right: 1rem;
+  }
+}
+
+@media(max-width:1132px)
+{
+  .navbarr
+  {
+    margin-left: 1rem;
+  }
+
+  .navbara 
+  {
+    margin-right: 0.5rem;
+  }
+ 
+}
+
+
+/* @media(max-width:1092px)
+{
+  .navbara
+  {
+    margin-right: 0.4rem;
+  }
+ 
+} */
+
+
+@media (max-width:992px)
+{
+  .browsetxt
+  {
+    width: 40%;
+  }
+ #collexmargin
+ {
+   margin-top: 2.2rem;
+ }
+}
+
+@media (max-width: 1199px)
+{
+  .txt3
+  {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 987px)
+{
+  .home-second-work
+  {
+    margin-top: 27.7%;
+  }
+ .resdiv
+ {
+   height: 33.3vh;
+ }
+ .help-img-div
+{
+    margin-bottom: 6rem;
+}
+
+.contact-exm-div
+{
+  margin-left: 0;
+}
+
+.fourth-div-img-resize
+{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.fourth-div
+{
+  margin-bottom: 5rem;
+}
+
+.fifth-div-heading
+{
+  width: 80%;
+}
+.sixth-slider-titile
+{
+  width: 80%;
+}
+.post2
+{
+  height: 58vh;
+}
+.next2,.prev2
+{
+  margin-top: 20%;
+}
+
+.footer-icons-div
+{
+  padding-left: 1rem;
+  
+}
+}
+
+
+
+
+@media (max-width: 768px)
+{
+  .home-second-work
+  {
+    margin-top: 24.6%;
+  }
+ .resdiv
+ {
+   height: 47vh;
+ }
+
+ .first-div,.second-div
+ {
+   height: 150vh;
+ }
+
+ .browsetxt
+{
+  width: 70%;
+}
+
+.help-img-div
+{
+    margin-bottom: 6rem;
+}
+
+.refund-form-width
+{
+    width: 70%;
+}
+
+.refund-p
+{
+    font-size: 1.1rem;
+}
+
+.contact-exm-div
+{
+  margin-left: 0;
+}
+
+.fourth-div-img-resize
+{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+.fourth-div
+{
+  margin-bottom: 5rem;
+}
+
+.fifth-div-heading
+{
+  width: 90%;
+}
+.sixth-slider-titile
+{
+  width: 80%;
+}
+.next2,.prev2
+{
+  margin-top: 30%;
+}
+
+.copy-text
+{
+  font-size: 0.8rem;
+}
+
+
+}
+
+
+@media (max-width: 558px)
+{
+  .home-second-work
+  {
+    margin-top: 29.3%;
+  }
+  .resdiv
+ {
+   height: 45.5vh;
+ }
+
+ .browsetxt
+{
+  width: 70%;
+}
+.ex-margin
+{
+    margin-top: 4rem;
+}
+
+.fifth-div-heading
+{
+  width: 100%;
+}
+
+.post2
+{
+  height: 65vh;
+}
+.next2,.prev2
+{
+  margin-top: 40%;
+}
+.footer-icon
+{
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  
+}
+}
+
